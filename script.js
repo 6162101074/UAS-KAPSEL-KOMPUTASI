@@ -260,7 +260,7 @@ function createChart(data, type){
 		data: {
 		  labels: data.map(row => row.year), 
 		  datasets: [{
-		    label: `Nilai Tukar ${base} Terhadap Rupiah`,
+		    label: `Nilai`,
 		    data: data.map(row => row.currency),
 		    borderWidth: 1
 		  }]
@@ -299,7 +299,7 @@ function createChart1(data1, type){
 		data: {
 		  labels: data1.map(row => row.year), 
 		  datasets: [{
-		    label: `Nilai Tukar ${target} Terhadap Rupiah`,
+		    label: `Nilai,
 		    data: data1.map(row => row.currency),
 		    borderWidth: 1
 		  }]
