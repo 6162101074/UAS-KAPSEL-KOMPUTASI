@@ -2,7 +2,7 @@
 
 :root {
   --blue: #10243c;
-  --green: #67b7dd;
+  --blue1: #67b7dd;
   --white: #fff;
   --exchange-rate-color: #555;
   --input-background: rgba(119, 136, 153, 0.15);
@@ -25,7 +25,7 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, var(--blue), var(--green));
+  background: linear-gradient(135deg, var(--blue), var(--blue1));
 }
 
 main {
@@ -46,7 +46,7 @@ h1 {
   padding-left: 75px;
   text-transform: uppercase;
   font-size: 2rem;
-  color: var(--green);
+  color: var(--blue1);
 }
 
 button {
@@ -96,7 +96,7 @@ button {
 }
 
 .control button:hover {
-  color: var(--green);
+  color: var(--blue1);
 }
 
 .control input {
@@ -130,7 +130,7 @@ button {
 }
 
 .swap-btn:hover {
-  background: var(--green);
+  background: var(--blue1);
 }
 
 .swap-btn span {
@@ -149,7 +149,7 @@ button {
 
 .exchange-rate h5 {
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--blue1);
 }
 
 .exchange-rate span {
@@ -204,7 +204,7 @@ button {
   padding: 10px 20px;
   border: 1px solid var(--input-border);
   border-radius: 10px;
-  outline-color: var(--green);
+  outline-color: var(--blue1);
 }
 
 .currency-list {
